@@ -1,0 +1,317 @@
+/* Custom Styles for Aduan Skanilan */
+
+/* Global Title Decorator */
+.section-title h2::after {
+  background: var(--accent-color);
+  width: 80px;
+}
+.section-title h2 {
+  color: var(--accent-color);
+  font-weight: 700;
+}
+.section-title div {
+  font-size: 32px;
+  color: var(--heading-color);
+}
+
+/* Base section padding */
+.section {
+  padding: 80px 0;
+}
+
+/* Cards */
+.sk-card {
+  background: var(--surface-color);
+  border-radius: 12px;
+  padding: 30px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+  height: 100%;
+  transition: transform 0.3s ease;
+  border: 1px solid rgba(0,0,0,0.03);
+}
+
+.sk-card:hover {
+  transform: translateY(-5px);
+}
+
+.sk-card-icon {
+  font-size: 48px;
+  margin-bottom: 20px;
+  color: var(--heading-color);
+}
+
+.sk-card-title {
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 15px;
+  color: var(--heading-color);
+}
+
+.sk-card-text {
+  color: var(--default-color);
+  font-size: 15px;
+  line-height: 1.6;
+}
+
+/* Service Cards (Blue Background) */
+.service-section {
+  background-color: var(--accent-color);
+  color: #fff;
+}
+.service-section .section-title h2 {
+  color: rgba(255,255,255,0.7);
+}
+.service-section .section-title h2::after {
+  background: rgba(255,255,255,0.7);
+}
+.service-section .section-title div {
+  color: #fff;
+}
+.service-card {
+  background: #fff;
+  color: var(--default-color);
+  text-align: center;
+  border-radius: 12px;
+  padding: 40px 20px;
+  height: 100%;
+}
+.service-card .icon-circle {
+  width: 80px;
+  height: 80px;
+  background-color: var(--heading-color);
+  color: #fff;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 32px;
+  margin: 0 auto 20px auto;
+}
+.service-card h3 {
+  color: var(--heading-color);
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 15px;
+}
+
+/* Guide Section */
+.guide-list {
+  list-style: none;
+  padding-left: 0;
+}
+.guide-list li {
+  margin-bottom: 15px;
+  font-size: 16px;
+  color: var(--default-color);
+}
+
+/* Stats Section */
+.stat-card {
+  background: #fff;
+  border-radius: 12px;
+  padding: 40px 20px;
+  text-align: center;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+}
+.stat-card .stat-num {
+  font-size: 48px;
+  font-weight: 700;
+  color: var(--accent-color);
+  margin-bottom: 10px;
+}
+.stat-card .stat-title {
+  font-size: 18px;
+  font-weight: 700;
+  color: var(--heading-color);
+  margin-bottom: 10px;
+}
+
+/* Flow Section */
+.flow-card {
+  background: #fff;
+  border-radius: 12px;
+  padding: 30px;
+  text-align: center;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+  height: 100%;
+}
+.flow-card .flow-icon {
+  width: 70px;
+  height: 70px;
+  background-color: var(--heading-color);
+  color: #fff;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 28px;
+  margin: 0 auto 20px auto;
+}
+.flow-card h3 {
+  color: var(--heading-color);
+  font-size: 18px;
+  font-weight: 700;
+}
+
+/* FAQ Section Overrides */
+.faq-container .faq-item {
+  background-color: #fff;
+  border-radius: 8px;
+  margin-bottom: 15px;
+  border: none;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.03);
+}
+.faq-container .faq-item h3 {
+  font-weight: 600;
+  color: var(--heading-color);
+}
+
+/* Testimonial Cards */
+.testi-card {
+  background: #fff;
+  border-radius: 8px;
+  padding: 30px;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.03);
+  text-align: center;
+  font-style: italic;
+  height: 100%;
+}
+.testi-card .author {
+  font-weight: 700;
+  font-style: normal;
+  color: var(--heading-color);
+  margin-top: 15px;
+  display: block;
+}
+
+/* CTA Section */
+.cta-section {
+  background: var(--heading-color);
+  color: #fff;
+  padding: 80px 0;
+  text-align: center;
+  border-radius: 16px;
+  margin: 60px 0;
+}
+.cta-section h2 {
+  color: #fff;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+.btn-white {
+  background: #fff;
+  color: var(--heading-color);
+  padding: 12px 30px;
+  border-radius: 50px;
+  font-weight: 600;
+  display: inline-block;
+  margin-top: 20px;
+}
+.btn-white:hover {
+  background: #f1f5f9;
+  color: var(--heading-color);
+}
+
+/* Terms Section */
+.terms-card {
+  background: #fff;
+  border-radius: 12px;
+  padding: 40px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+}
+.terms-card h3 {
+  font-size: 20px;
+  color: var(--heading-color);
+  margin-top: 20px;
+  font-weight: 600;
+}
+.terms-card p {
+  color: var(--default-color);
+}
+
+/* Contact Cards */
+.contact-card {
+  background: #fff;
+  border-radius: 12px;
+  padding: 30px 20px;
+  text-align: center;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+  height: 100%;
+  border: 1px solid rgba(0,0,0,0.03);
+}
+.contact-card .contact-icon {
+  font-size: 60px;
+  color: #38bdf8;
+  margin-bottom: 20px;
+  display: inline-block;
+}
+
+/* Animated Icons for Contact Section */
+@keyframes float-icon {
+  0% { transform: translateY(0); }
+  50% { transform: translateY(-8px); }
+  100% { transform: translateY(0); }
+}
+
+@keyframes pulse-icon {
+  0% { transform: scale(1); }
+  50% { transform: scale(1.15); }
+  100% { transform: scale(1); }
+}
+
+@keyframes ring-icon {
+  0% { transform: rotate(0deg); }
+  10% { transform: rotate(15deg); }
+  20% { transform: rotate(-10deg); }
+  30% { transform: rotate(15deg); }
+  40% { transform: rotate(-10deg); }
+  50% { transform: rotate(0deg); }
+  100% { transform: rotate(0deg); }
+}
+
+.animated-icon-location {
+  animation: float-icon 3s ease-in-out infinite;
+}
+
+.animated-icon-email {
+  animation: pulse-icon 2s ease-in-out infinite;
+}
+
+.animated-icon-website {
+  animation: pulse-icon 3s ease-in-out infinite;
+}
+
+.animated-icon-phone {
+  animation: ring-icon 2s ease-in-out infinite;
+}
+
+.contact-card h4 {
+  color: var(--heading-color);
+  font-size: 18px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+.contact-card p {
+  font-size: 13px;
+  color: var(--default-color);
+  margin-bottom: 0;
+}
+
+/* Footer Overrides */
+.footer.dark-background {
+  --background-color: #0b1120;
+}
+.footer .footer-about .footer-contact-card {
+  background: #0b2149;
+  padding: 20px;
+  border-radius: 8px;
+  margin-top: 20px;
+}
+.footer-contact-card h4 {
+  color: #fff;
+  font-size: 18px;
+}
+.footer-contact-card p {
+  color: rgba(255,255,255,0.8);
+  font-size: 14px;
+}
